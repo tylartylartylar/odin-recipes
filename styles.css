@@ -1,3 +1,21 @@
-#Homepage{
-    background:linear-gradient(Gray, White);
+.Font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Background {
+  background: linear-gradient(#e66465, white);
+}
+
+.Title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 32;
+  line-height: 100px;
+}
+
+.Recipes-list {
+  text-align: Center;
+  font-weight: 600;
+  font-size: 22;
+  line-height: 25px;
 }

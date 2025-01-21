@@ -1,0 +1,21 @@
+.Recipe-Title {
+  text-align: center;
+  font-weight: 800;
+}
+
+.recipe-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Smoothie,
+.Lasagna {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(#e66465, white);
+}
+
+h2 {
+  text-align: center;
+}
