@@ -1,21 +1,46 @@
-.Recipe-Title {
-  text-align: center;
-  font-weight: 800;
+* {
+  box-sizing: border-box;
+  font-family: arial;
 }
 
-.recipe-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin:0;
 }
 
-.Smoothie,
-.Lasagna {
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(#e66465, white);
+.navigation-col{
+  background: lightgreen;
+  flex: 1;
 }
 
-h2 {
-  text-align: center;
+.header-col{
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.content {
+  display:flex;
+  flex-direction: row;
+}
+
+.content > article{
+  flex: 3;
+  min-height: 60vh;
+}
+
+.content > aside {
+  background: beige;
+  flex: 1;
+}
+
+header, footer {
+  background: yellowgreen;
+  height: 20vh;
+}
+
+header,footer,article,nav,aside{
+  padding: 1em;
 }
